@@ -1,10 +1,13 @@
 import './App.css';
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Header from './UIComponents/header.js';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import LogForm from './UIComponents/form.js';
+import Cal from "./UIComponents/calendar.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-calendar/dist/Calendar.css';
 
 function App() {
   return (
@@ -13,7 +16,7 @@ function App() {
       <Row><Header/></Row>
       <Row className="mainRow">
       <Col><LogForm/></Col>
-      <Col>Col 2</Col>
+      <Col><Cal/></Col>
       </Row>
     </Container>
     </div>
