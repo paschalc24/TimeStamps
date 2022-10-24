@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 .form-label {
     float: left;
+    font-family: "Varela Round";
+}
+
+#eform{
+    padding-top:2%;
+}
+
+#submitbuttoncol{
+    padding: 30px;
 }
